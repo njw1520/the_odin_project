@@ -1,0 +1,26 @@
+/* style.css */
+
+* {
+    background-color: rgb(24, 24, 24);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+h1,
+h2,
+strong {
+    color: #e7d1a9
+}
+
+.food {
+    border-radius: 25px;
+    border: 2px solid #e7d1a9;
+    padding: 2px;
+
+}
