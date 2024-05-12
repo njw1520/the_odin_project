@@ -10,6 +10,8 @@ body {
 .hero {
     background: #1f2937;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -23,6 +25,38 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     flex: 1;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information > h2 {
+    padding: 16px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    width: 150px;
+}
+
+.card > img {
+    border-radius: 8px;
+    border: 1px solid #3882f6;
 }
 
 .hero-section {
