@@ -26,6 +26,12 @@ body {
     padding-right: 50px;
 }
 
+.hero-section > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
 .logo {
     margin-right: auto;
 }
