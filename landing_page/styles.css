@@ -139,6 +139,19 @@ body {
     border: 1px solid white;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+}
+
+.footer > h5 {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+
 ul {
     list-style-type: none;
     padding: 1rem 15rem;
