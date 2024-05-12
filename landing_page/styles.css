@@ -22,7 +22,7 @@ body {
 .container {
     display: flex;
     padding: 8rem 15rem;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     flex: 1;
 }
@@ -107,8 +107,36 @@ body {
     color: #1f2937;
 }
 
+.call {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
 .action {
+    display: flex;
     background: #3882f6;
+    padding: 50px 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.left > * {
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
+
+.left > p {
+    color: #e5e7eb;
+}
+
+.right > button {
+    border: 1px solid white;
 }
 
 ul {
