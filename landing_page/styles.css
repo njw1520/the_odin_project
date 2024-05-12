@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: #1f2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    padding: 8rem 15rem;
+    justify-content: space-between;
+    align-items: stretch;
+    flex: 1;
+}
+
+.hero-section {
+    padding-right: 50px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1rem 15rem;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    border: 0px solid white;
+}
