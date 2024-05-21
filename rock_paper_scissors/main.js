@@ -62,3 +62,25 @@ function playRound() {
     console.log("It's a draw!");
   }
 }
+
+function finalScore(userScore, computerScore) {
+  console.log("Final Scores:");
+  console.log(`User: ${userScore}`);
+  console.log(`Computer: ${computerScore}`);
+  if (userScore > computerScore) {
+    console.log("User wins!");
+  } else if (computerScore > userScore) {
+    console.log("Computer wins!");
+  } else {
+    console.log("Its a draw!");
+  }
+}
+
+function playGame() {
+  for (let i = 0; i < 5; i++) {
+    console.log(`Current User Score: ${userScore}`);
+    console.log(`Current Computer Score: ${computerScore}`);
+    playRound();
+  }
+  finalScore(userScore, computerScore);
+}
