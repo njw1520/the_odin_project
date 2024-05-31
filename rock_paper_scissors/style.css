@@ -3,17 +3,25 @@
 }
 
 body {
-    background: gray;
+    background: #eee;
+}
+
+.ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    height: 100vh;
+    height: 400px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    color: white;
+    background: #fff;
+    border-radius: 8px;
 }
 
 .buttons {
