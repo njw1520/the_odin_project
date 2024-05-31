@@ -9,6 +9,15 @@ body {
 .container {
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+
+.buttons {
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
