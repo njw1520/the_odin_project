@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10%;
 }
 
 .container {
@@ -19,14 +20,36 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    row-gap: 2rem;
+    column-gap: 5rem;
     background: #fff;
     border-radius: 8px;
 }
 
-.buttons {
+.buttons,
+.results {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+button {
+    border: 0px solid white;
+    padding: 5px 10px;
+    color: white;
+    background: cadetblue;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+button:hover {
+    background: blue;
+}
+
+#player,
+#computer,
+.winner {
+    font-size: 42px;
+    font-weight: 700;
 }
